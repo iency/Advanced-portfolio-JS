@@ -200,22 +200,51 @@ LANDING PAGE
 }
 
 .social__list {
-    margin-top: 16px;
+    position: relative;
     display: flex;
 }
 
-.social__link {
-    background-color: #f06449;
-    color: white;
-    padding: 6px;
-    width: 32px;
-    height: 32px;
-    font-size: 14px;
-    margin-right: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+.social__list .links__gorgeous--effect {
+    position: relative;
+    margin: 0 20px;
+}
+
+.social__list .links__gorgeous--effect .social__link .fa-brands {
+    font-size: 3em;
+    color: #222;
+}
+
+.social__list .links__gorgeous--effect .social__link::before {
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.social__list .links__gorgeous--effect:nth-child(1) .social__link::before {
+    content: "\f0e1";
+    color: #0077b5;
+    border-bottom: 4px solid #0077b5;
+}
+
+.social__list .links__gorgeous--effect:nth-child(2) .social__link::before {
+    content: "\f09b";
+    color: #1DA1F2;
+    border-bottom: 4px solid #1DA1F2;
+}
+
+.social__list .links__gorgeous--effect:nth-child(3) .social__link::before {
+    content: "\e493";
+    color: #f40f02;
+    border-bottom: 4px solid #f40f02;
+}
+
+.social__list .links__gorgeous--effect:hover .social__link::before {
+    height: 100%;
 }
 
 .mail__btn {
