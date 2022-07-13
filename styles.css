@@ -173,6 +173,10 @@ nav,
     color: #242424;
 }
 
+.dark-theme .social__list .links__gorgeous--effect .social__link .fa-brands {
+    color: rgb(75, 57, 57);
+}
+
 /* 
 
 LANDING PAGE 
@@ -197,6 +201,7 @@ LANDING PAGE
     font-size: 24px;
     line-height: 2;
     max-width: 450px;
+    margin-bottom: 24px;
 }
 
 .social__list {
@@ -211,7 +216,7 @@ LANDING PAGE
 
 .social__list .links__gorgeous--effect .social__link .fa-brands {
     font-size: 3em;
-    color: #222;
+    color: rgb(48, 42, 42);
 }
 
 .social__list .links__gorgeous--effect .social__link::before {
@@ -226,7 +231,7 @@ LANDING PAGE
 }
 
 .social__list .links__gorgeous--effect:nth-child(1) .social__link::before {
-    content: "\f0e1";
+    content: "\f08c";
     color: #0077b5;
     border-bottom: 4px solid #0077b5;
 }
@@ -238,9 +243,9 @@ LANDING PAGE
 }
 
 .social__list .links__gorgeous--effect:nth-child(3) .social__link::before {
-    content: "\e493";
-    color: #f40f02;
-    border-bottom: 4px solid #f40f02;
+    content: "\f1c1";
+    color: #ca0a64;
+    border-bottom: 4px solid #ca0a64;
 }
 
 .social__list .links__gorgeous--effect:hover .social__link::before {
