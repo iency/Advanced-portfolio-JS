@@ -428,6 +428,11 @@ MODAL
     width: 100%;
 }
 
+.modal__language--img---js,
+.modal__language--img---react {
+    height: 70px;
+}
+
 .modal__contact {
     background-color: #242424;
     color: white;
